@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     domains: ["m.media-amazon.com"],
   },
+  revalidate: 60,
 };
 
 export default nextConfig;
